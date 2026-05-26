@@ -1,44 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+
+
+
+  </style>
 </head>
 <body>
-    <h1 style="text-align:left " >
 
+  <!-- ══ HEADER ══ -->
+  <header>
+    <div class="container">
+      <div class="site-name">
+        <h1>Marko Adašević</h1>
+        <p>CEO OF SOGY ACTIVITES </p>
+        <img src="images.jpg" alt="Description of the image">
+      </div>
+      <nav>
+        <a href="https://gimnazijapozega.edu.rs/">školovanje</a>
+        <a href="https://www.abb.com/global">iskustvo</a>
 
-           Marko Adašević
+      
+        <a href="https://markeza23.github.io/-ada/content" class="contact-link">kontakt</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container">
+
+    <!-- ══ ABOUT ══ -->
+    <section id="about">
+      <p class="section-label">O meni</p>
+      <p class="about-text">
+      CEO najveće robotičke kompanije
+      <br>
+
+      Ponosan posednik duster aviona
+      <br>
     
-    </h1>
-    <ol>
-    <li >
-        CEO of SOGYACTIVITIES
+      
+      Obozavalac mma
+       
+      </p>
+    </section>
+
+    <!-- ══ EDUCATION (linked table) ══ -->
+    <section id="education">
+      <p class="section-label">skolstvo</p>
+      <table class="schools-table">
+        <thead>
+          <tr>
+            <th>Skola</th>
+            <th>smer</th>
+            <th>Years</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!-- School 1 — replace href, name, degree, years -->
+          <tr>
+            <td class="school-name">
+              <a href="https://www.os-emilijaostojic.edu.rs" class="school-link" target="_blank" rel="noopener">
+              Emilija Ostojic 
+              </a>
+            </td>
+            <td class="degree">osnovna skola</td>
+            <td class="year">2015 – 2023</td>
+          </tr>
+
+          <!-- School 2 -->
+          <tr>
+            <td class="school-name">
+              <a href="https://gimnazijapozega.edu.rs/" class="school-link" target="_blank" rel="noopener">
+            Gimnazija
+              </a>
+            </td>
+            <td class="degree">racunarsko odeljenje</td>
+            <td class="year">2023 – 2027</td>
+          </tr>
+
+          <!-- School 3 -->
+          <tr>
+            <td class="school-name">
+              <a href="https://feri.um.si/" class="school-link" target="_blank" rel="noopener">
+                  FERI
+              </a>
+            </td>
+            <td class="degree">Mehatronika</td>
+            <td class="year">2027 – 2033</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ══ EXPERIENCE ══ -->
+    <section id="experience">
+      <p class="section-label">ISKUSTVA</p>
+
+      <!-- Duplicate .exp-row blocks as needed -->
+      <div class="exp-row">
+        <span class="exp-year">2036 – Sadašnjost</span>
+        <div class="exp-body">
+          <strong>CEO OF SOGY ACTIVITES</strong>
+          <p>Osnovao kompaniju za generalnu automatizaciju i robotiku
+            <br>
+            Opširnost nam je krece od vojne opreme i robota do dnevnih  robota i pomagala
+            <br>
+             Net worth:1 bilion kajmansko ostrvskih dolara (ne pitajte sto se nalazmo tamo)
+          </p>
+        </div>
+    
+
+
+      <div class="exp-row">
+        <span class="exp-year">2033 –2036</span>
+        <div class="exp-body">
+          <strong> <a href="https://www.fanuc.eu/eu-en">mehatronički inzenjer u FANUC-u</a></strong>
+          <p>Pojacao proizvodnju i automatizaciju
+            <br>
+           Odbili su dalju saradnju uz uslov preuzimanja 30%
             
-    </li>
-    <li>
- Proud owner of the largest robotics company in the world
+          </p>
+        </div>
+      </div>
 
-    </li>
-    
-    <li>
-        PFL middlewieght champion
-    </li>
- 
+    </section>
 
-  
+    <!-- ══ SKILLS ══ -->
+    <section id="skills">
+      <p class="section-label">Vestine</p>
+      <ul class="plain-list">
+        <li>programiranje</li>
+        <li>sastavljanje delova</li>
+        <li> pravljenje robota</li>
+        <li>zavarivanje</li>
+        <li>mma</li>
 
+      </ul>
+    </section>
 
+  </main>
 
-    </ol>
-        <img  src="images.jpg" alt=" ">
+  <footer>
+ <strong>
+Trenuto u sudskom okrašaju sa met kompanijom
+<br>
+Optuzeni za isporučivanje neispravnih delova 
+<br>
+Izazvalo nacionalnu tragediju u naftnom polju Gavar  izazvavši ogromnu štetu našoj opremi i robotima
+<br>
+Trenuto na cekanju da isplate  20 miliona (Brankeza se nece izvuci)
 
-
-
-
-
+ </strong>
+  </footer>
 
 </body>
 </html>
